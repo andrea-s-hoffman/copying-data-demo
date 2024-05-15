@@ -31,8 +31,8 @@ const copyObjArr = JSON.parse(JSON.stringify(ogObjArr));
 
 ogObjArr[1].cost = 123;
 copyObjArr[0].cost = 456;
-console.log(ogObjArr);
-console.log(copyObjArr);
+console.log("ogObjArr:", ogObjArr);
+console.log("copyObjArr:", copyObjArr);
 
 console.log(
   "-----------------------------------------------------------------------------"
@@ -65,8 +65,8 @@ const copyNestedObj = JSON.parse(JSON.stringify(ogNestedObj));
 
 ogNestedObj.possibleAnswers[2] = "Toad";
 copyNestedObj.possibleAnswers[3] = "Frog";
-console.log(ogNestedObj);
-console.log(copyNestedObj);
+console.log("ogNestedObj:", ogNestedObj);
+console.log("copyNestedObj:", copyNestedObj);
 
 console.log(
   "-----------------------------------------------------------------------------"
